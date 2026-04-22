@@ -17,18 +17,21 @@ class Paginaweb {
     }
 
 
-    public void setUrl(String url) {
+    public Paginaweb setUrl(String url) {
         this.url = url;
+        return this;
     }
 
 
-    public void setTitulo(String titulo) {
+    public Paginaweb setTitulo(String titulo) {
         this.titulo = titulo;
+        return this;
     }
 
 
-    public void setFechaAcceso(String fechaAcceso) {
+    public Paginaweb setFechaAcceso(String fechaAcceso) {
         this.fechaAcceso = fechaAcceso;
+        return this;
     }
 
 
